@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMSignatureView_Example' do
+  pod 'MMSignatureView', :path => '../'
+
+  target 'MMSignatureView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
