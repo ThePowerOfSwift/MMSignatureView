@@ -1,0 +1,22 @@
+{
+  "name": "MMSignatureView",
+  "version": "0.1.0",
+  "summary": "A short description of MMSignatureView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mir-taqi/MMSignatureView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mir-taqi": "mtaqi@sejeltech.com"
+  },
+  "source": {
+    "git": "https://github.com/mir-taqi/MMSignatureView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MMSignatureView/Classes/**/*"
+}

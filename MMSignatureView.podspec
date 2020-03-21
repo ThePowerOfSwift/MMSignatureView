@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MMSignatureView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MMSignatureView.'
+  s.summary          = 'A simple and easy cocoapod for signing/drawing.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"Add a new UIView where you want the signature capture field. Set its class to MMSignatureView, and connect it to an @IBOutlet property in your UIViewController. For saving and clearing the signature, add two buttons to your view controller. Hook each button up to an @IBAction function."
                        DESC
 
   s.homepage         = 'https://github.com/mir-taqi/MMSignatureView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mir-taqi' => 'mtaqi@sejeltech.com' }
+  s.author           = { 'mir-taqi' => 'taqi1435@gmail.com' }
   s.source           = { :git => 'https://github.com/mir-taqi/MMSignatureView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit' , 'CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

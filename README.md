@@ -22,7 +22,7 @@ pod 'MMSignatureView'
 
 ## Author
 
-mir-taqi, mtaqi@sejeltech.com
+mir-taqi
 
 ## License
 

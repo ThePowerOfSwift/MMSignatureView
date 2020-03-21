@@ -1,0 +1,6 @@
+framework module MMSignatureView {
+  umbrella header "MMSignatureView-umbrella.h"
+
+  export *
+  module * { export * }
+}

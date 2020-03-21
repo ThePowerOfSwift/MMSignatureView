@@ -1,0 +1,16 @@
+PODS:
+  - MMSignatureView (0.1.0)
+
+DEPENDENCIES:
+  - MMSignatureView (from `../`)
+
+EXTERNAL SOURCES:
+  MMSignatureView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMSignatureView: 0b59ee4c4eaa5ab6f767b4a3e09a8c3447d075d9
+
+PODFILE CHECKSUM: 2b38de61919ddf765e2b352ca7a101247d24ade2
+
+COCOAPODS: 1.8.4
